@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nexvoratech.com/sitemap.xml",
+    sitemap: "https://nextjs-seo-vercel-demo.vercel.app/sitemap.xml",
   };
 }
