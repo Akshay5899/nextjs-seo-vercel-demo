@@ -1,4 +1,5 @@
 import "./globals.css";
+import Header from "./components/Header";
 
 export const metadata = {
   title: {
@@ -15,19 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <div className="page-shell">
-          <header>
-            <div className="header-inner">
-              <a className="logo" href="/">
-                Nexvora Tech
-              </a>
-              <nav className="nav-links">
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/services">Services</a>
-                <a href="/contact">Contact</a>
-              </nav>
-            </div>
-          </header>
+          <Header />
           {children}
           <footer className="footer">
             <div>
