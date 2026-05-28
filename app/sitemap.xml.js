@@ -3,19 +3,19 @@ export default function sitemap() {
 
   return [
     {
-      url: "https://nexvoratech.com",
+      url: "https://nextjs-seo-vercel-demo.vercel.app/",
       lastModified: now,
     },
     {
-      url: "https://nexvoratech.com/about",
+      url: "https://nextjs-seo-vercel-demo.vercel.app/about",
       lastModified: now,
     },
     {
-      url: "https://nexvoratech.com/services",
+      url: "https://nextjs-seo-vercel-demo.vercel.app/services",
       lastModified: now,
     },
     {
-      url: "https://nexvoratech.com/contact",
+      url: "https://nextjs-seo-vercel-demo.vercel.app/contact",
       lastModified: now,
     },
   ];
